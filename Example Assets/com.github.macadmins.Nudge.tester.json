@@ -6,7 +6,8 @@
     "osVersionRequirements": [
         {
             "aboutUpdateURL": "sofa",
-            "requiredMinimumOSVersion": "latest",
+            "requiredMinimumOSVersion": "13.7",
+            "requiredMaxOSVersion": "15.2",
             "unsupportedURL": "https://google.com"
         }
     ],
@@ -22,6 +23,8 @@
         "screenShotDarkPath": "https://github.com/macadmins/nudge/blob/main/assets/standard_mode/demo_dark_1_icon.png?raw=true",
         "screenShotLightPath": "https://github.com/macadmins/nudge/blob/main/assets/standard_mode/demo_light_1_icon.png?raw=true",
         "applicationTerminatedNotificationImagePath": "/Library/Application Support/Nudge/logoLight.png",
+        "mainContentHeader": "A macOS update is available",
+        "mainContentBody": "We recommend updating your Mac to remain in compliance. These updates are managed by PoeIT Service Admins.",
         "updateElements": [
             {
                 "_language": "en",
